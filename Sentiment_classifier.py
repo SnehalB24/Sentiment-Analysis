@@ -37,7 +37,7 @@ def strip_punctuation(word):
     return word
 
 
-word=open('twitter_data.csv','r')
+word=open('Twitter_data.csv','r')
 read=word.readlines()
 num_retweet=[]
 num_replies=[]
